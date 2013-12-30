@@ -1,8 +1,4 @@
-This repo is DEPRECATED
-=======================
 
-Highly recommend you try out http://my.opera.com/Deathamns/blog/opera-extension-imagus as I've decided to discontinue support for HoverFree.
-============================================================================================================================================
 
 hoverfree 
 =========
@@ -24,11 +20,13 @@ HoverFree will never track or record browsing activity.
 Installation:
 =============
 
-Easiest method is Chrome Web Store: https://chrome.google.com/webstore/detail/hover-free/hcmnnggnaofmhflgomfjfbndngdoogkj
+Installation via the Chrome Web Store has been disabled by the original author. 
 
-For manual installation, simplest method is:
+For manual installation, either download https://github.com/miketanderson/hoverfree/archive/master.zip
+
+Or clone the git repo:
 ```
 git archive --format zip --output ~/hoverfree.zip master 
 ```
 
-Over 24,000 weekly users as of 7/13!
+From the Extensions page in Chrome (chrome://extensions/), enable "Developer Mode" via the check box on the top right.  Click the "Load Unpacked Extension..." button and open the saved zip file.  
